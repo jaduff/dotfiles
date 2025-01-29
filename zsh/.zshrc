@@ -109,3 +109,5 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim='nvim'
 alias ls='ls --color=auto -hv'
+alias freecad QT_QPA_PLATFORM=xcb freecad
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh" #fix issue with Kitty not working correctly over ssh
